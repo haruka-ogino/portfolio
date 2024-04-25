@@ -1,6 +1,7 @@
 export default function About() {
   return (
     <div id="about" className="text">
+      <h2>About Me</h2>
       <p>
         I am a former civil engineer who has found a new passion for software
         development. My time as a civil engineer has allowed me to develop

@@ -14,10 +14,35 @@ h1 {
   margin: 0em;
 }
 
+/* about & projects */
 .text {
-  max-width: 60em;
-  word-wrap: break-word;
+  width: 60em;
+  /* word-wrap: break-word; */
   /* text-align: center; */
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.text h2 {
+  font-size: 1.5em;
+}
+
+/* projects */
+.project {
+  display: flex;
+  text-decoration: none;
+}
+
+.project img {
+  width: 10em;
+  padding-right: 1em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2em;
 }
 
 .main p {
@@ -88,9 +113,4 @@ h1 {
   .sections button {
     padding: 16px 32px;
   }
-}
-
-/* about */
-#about p {
-  font-size: 1.2em;
 }
