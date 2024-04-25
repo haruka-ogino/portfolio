@@ -1,14 +1,17 @@
+import { useNavigate } from 'react-router-dom'
+
 export default function Home() {
+  const navigate = useNavigate()
   return (
-    <div className="main">
+    <section className="main">
       <div className="intro">
         <p>Hi there, I&apos;m</p>
         <h1>Haruka Ogino</h1>
         <p>Full-stack Developer</p>
       </div>
       <aside className="sections">
-        <button>About Me</button>
-        <button>Projects</button>
+        <button onClick={() => navigate('about')}>About Me</button>
+        <button onClick={() => navigate('projects')}>Projects</button>
         <button
           onClick={() => {
             window.open('/Haruka-Ogino-CV.pdf', '_blank')
@@ -17,6 +20,6 @@ export default function Home() {
           My CV
         </button>
       </aside>
-    </div>
+    </section>
   )
 }
