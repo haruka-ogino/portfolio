@@ -16,8 +16,9 @@ export default function Projects() {
               <br />
               <br />
               While I have accomplished a lot of my goals for this app, I am
-              still constantly working on it. Learn more about my goals on the
-              GitHub repo.
+              still constantly working on it.
+              <br />
+              Learn more about my goals on the GitHub repo.
             </p>
             <a href="https://ghibli-things.devacademy.nz/">
               <p>https://ghibli-things.devacademy.nz/</p>
