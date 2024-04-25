@@ -30,20 +30,24 @@ p {
 }
 
 /* projects */
+/* .project {
+} */
+
 .project {
   display: flex;
-  margin-left: 2em;
-  width: 30em;
-  padding: 1em;
+  align-items: center;
+  margin: 0em 1em 2em 2em;
+  width: 55em;
   text-decoration: none;
   border: 0.1em solid black;
   border-radius: 20px;
 }
 
 .project img {
-  width: 11em;
-  height: auto;
-  padding-right: 1em;
+  width: 12em;
+  max-height: 11em;
+  /* height: auto; */
+  padding: 2em 2em 2em 0.5em;
 }
 
 .project p {
