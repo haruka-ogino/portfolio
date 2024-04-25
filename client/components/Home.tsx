@@ -18,7 +18,7 @@ export default function Home() {
       <aside className="sections">
         {/* <button onClick={() => navigate('about')}>About Me</button> */}
         <button onClick={() => handleClick('about')}>About Me</button>
-        <button onClick={() => navigate('projects')}>Projects</button>
+        <button onClick={() => handleClick('projects')}>Projects</button>
         <button
           onClick={() => {
             window.open('/Haruka-Ogino-CV.pdf', '_blank')
