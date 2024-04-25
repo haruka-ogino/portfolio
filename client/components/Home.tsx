@@ -1,7 +1,4 @@
-import { useNavigate } from 'react-router-dom'
-
 export default function Home() {
-  const navigate = useNavigate()
   const handleClick = (id: string) => {
     const heading = document.getElementById(id)
     if (heading) {
