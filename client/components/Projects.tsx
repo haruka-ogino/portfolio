@@ -28,12 +28,13 @@ export default function Projects() {
           </div>
         </div>
         <div className="project">
-          <img
-            src="https://www.ghibli-museum.jp/en/img/mainimg.png"
-            alt="ghibli character"
-          />
+          <img src="/mansion.png" alt="haunted mansion" />
           <div className="description">
             <h3>Lucas&apos; Mansion</h3>
+            <p>
+              A browser escape room created as our final group project at the
+              Dev Academy.
+            </p>
             <a href="https://lucas-mansion.pushed.nz/">
               <p>https://lucas-mansion.pushed.nz/</p>
             </a>
@@ -43,14 +44,17 @@ export default function Projects() {
           </div>
         </div>
         <div className="project">
-          <img
-            src="https://www.ghibli-museum.jp/en/img/mainimg.png"
-            alt="ghibli character"
-          />
+          <img src="/pet.png" alt="dog clipart" />
           <div className="description">
             <h3>Pet Blog</h3>
-            <p>This web application is under construction.</p>
-            <a href="https://github.com/harakeke-2024/Lucas-Mansion">
+            <p>
+              This web application is under construction.
+              <br />
+              <br />
+              It is a web application designed to record your pet&apos;s
+              milestones.
+            </p>
+            <a href="https://github.com/haruka-ogino/pet-blog">
               <p>GitHub repository</p>
             </a>
           </div>

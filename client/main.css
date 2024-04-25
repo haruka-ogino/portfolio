@@ -29,10 +29,6 @@ p {
   font-size: 1.5em;
 }
 
-/* projects */
-/* .project {
-} */
-
 .project {
   display: flex;
   align-items: center;
@@ -46,7 +42,6 @@ p {
 .project img {
   width: 12em;
   max-height: 11em;
-  /* height: auto; */
   padding: 2em 2em 2em 0.5em;
 }
 
