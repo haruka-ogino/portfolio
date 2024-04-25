@@ -21,6 +21,7 @@
   "author": "Dev Academy Aotearoa",
   "license": "ISC",
   "dependencies": {
+    "@react-pdf/renderer": "^3.4.3",
     "superagent": "^8.1.2"
   },
   "devDependencies": {
