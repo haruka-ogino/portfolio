@@ -1,14 +1,14 @@
-// import { PDFViewer } from '@react-pdf/renderer'
-import { Link, Outlet } from 'react-router-dom'
-import CVDocument from './CVDocument'
+import { Outlet } from 'react-router-dom'
 
 function App() {
   return (
     <div>
       <h1>App</h1>
       <p>React development has begun!</p>
-      {/* <CVDocument /> */}
-      <Link to="cv">CV</Link>
+      <a href="/Haruka-Ogino-CV.pdf" target="_blank">
+        My CV
+      </a>
+      {/* <Link to="cv">CV</Link> */}
       <Outlet />
     </div>
   )
