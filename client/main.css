@@ -25,19 +25,29 @@ p {
   font-size: 1.2em;
 }
 
-.text h2 {
+.text h3 {
   font-size: 1.5em;
 }
 
 /* projects */
 .project {
   display: flex;
+  margin-left: 2em;
+  width: 30em;
+  padding: 1em;
   text-decoration: none;
+  border: 0.1em solid black;
+  border-radius: 20px;
 }
 
 .project img {
-  width: 10em;
+  width: 11em;
+  height: auto;
   padding-right: 1em;
+}
+
+.project p {
+  font-size: 1em;
 }
 
 a {

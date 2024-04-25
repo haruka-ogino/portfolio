@@ -9,11 +9,12 @@ export default function Projects() {
             alt="ghibli character"
           />
           <div className="description">
+            <h3>All the Ghibli Things!</h3>
             <a href="https://ghibli-things.devacademy.nz/">
-              <h3>All the Ghibli Things!</h3>
+              <p>Deployed web app</p>
             </a>
             <a href="https://github.com/haruka-ogino/Ghibli-Things">
-              <p>GitHub Repository</p>
+              <p>GitHub repository</p>
             </a>
           </div>
         </div>
