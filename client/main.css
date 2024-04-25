@@ -1,10 +1,32 @@
 html {
   font-family: 'Avenir Next LT W01 Bold', sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3em;
+  padding-top: 0.1em;
+  padding-bottom: 0.5em;
+  margin: 0em;
+}
+
+.main p {
+  font-size: 1.5em;
+  padding: 0em;
+  margin: 0em;
 }
 
 .main {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.intro {
+  margin: 3em;
 }
 
 .sections {
@@ -18,8 +40,8 @@ html {
   border: 1px solid #266db6;
   box-sizing: border-box;
   color: #00132c;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 1.5em;
+  font-weight: 550;
   line-height: 24px;
   padding: 16px 23px;
   position: relative;
