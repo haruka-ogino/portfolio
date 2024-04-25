@@ -8,6 +8,7 @@ export default function CVDocument() {
         style={{ width: '100%', height: '100vh', border: 'none' }}
       /> */}
       <p>{pdfUrl}</p>
+      <p>can you se meeeee</p>
     </div>
   )
 }
