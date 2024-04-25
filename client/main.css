@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+}

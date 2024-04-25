@@ -1,3 +1,3 @@
-export default function Hello() {
-  return <p>hellooooo comp</p>
+export default function About() {
+  return <p></p>
 }
