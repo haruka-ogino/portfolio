@@ -7,9 +7,8 @@ function App() {
     <div>
       <h1>App</h1>
       <p>React development has begun!</p>
-      {/* <PDFViewer> */}
       <CVDocument />
-      {/* </PDFViewer> */}
+      {/* <Link to="/cv">CV</Link> */}
     </div>
   )
 }
