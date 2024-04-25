@@ -1,8 +1,9 @@
-html {
+.container {
   font-family: 'Avenir Next LT W01 Bold', sans-serif;
   height: 100%;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -11,6 +12,12 @@ h1 {
   padding-top: 0.1em;
   padding-bottom: 0.5em;
   margin: 0em;
+}
+
+.text {
+  max-width: 60em;
+  word-wrap: break-word;
+  /* text-align: center; */
 }
 
 .main p {
@@ -81,4 +88,9 @@ h1 {
   .sections button {
     padding: 16px 32px;
   }
+}
+
+/* about */
+#about p {
+  font-size: 1.2em;
 }

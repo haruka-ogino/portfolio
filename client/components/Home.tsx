@@ -2,6 +2,12 @@ import { useNavigate } from 'react-router-dom'
 
 export default function Home() {
   const navigate = useNavigate()
+  const handleClick = (id: string) => {
+    const heading = document.getElementById(id)
+    if (heading) {
+      heading.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
   return (
     <section className="main">
       <div className="intro">
@@ -10,13 +16,15 @@ export default function Home() {
         <p>Full-stack Developer</p>
       </div>
       <aside className="sections">
-        <button onClick={() => navigate('about')}>About Me</button>
+        {/* <button onClick={() => navigate('about')}>About Me</button> */}
+        <button onClick={() => handleClick('about')}>About Me</button>
         <button onClick={() => navigate('projects')}>Projects</button>
         <button
           onClick={() => {
             window.open('/Haruka-Ogino-CV.pdf', '_blank')
           }}
         >
+          {/* <button onClick={this.handleClick}>Go to Haruka's Blog</button> */}
           My CV
         </button>
       </aside>
