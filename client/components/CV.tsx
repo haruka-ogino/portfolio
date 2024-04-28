@@ -18,6 +18,7 @@ export default function CV() {
       right: 0,
       textAlign: 'center',
     },
+    point: { margin: 2, fontSize: '11px', textAlign: 'justify' },
   })
 
   const CV = {
@@ -45,7 +46,7 @@ export default function CV() {
       title: 'Temporary Site Administrator',
       company: 'Leighs Construction',
       bulletPoints: [
-        '• Assemble QA (Quality Assurance) packages.',
+        'Assemble QA (Quality Assurance) packages.',
         'Supply management and upkeep.',
         'Management of H&S (Health & Safety) documentation.',
       ],
@@ -138,7 +139,10 @@ export default function CV() {
                 )}
                 <ul>
                   {experience.bulletPoints.map((point, i) => (
-                    <li key={i}>{point}</li>
+                    <Text
+                      style={styles.point}
+                      key={i}
+                    >{`\u2022 ${point}`}</Text>
                   ))}
                 </ul>
               </div>
