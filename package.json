@@ -1,5 +1,5 @@
 {
-  "homepage":"http://haruka-ogino.github.io",
+  "homepage": "http://haruka-ogino.github.io",
   "name": "boilerplate-phase1",
   "type": "module",
   "version": "0.2.0",
@@ -12,7 +12,7 @@
     "test": "vitest",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "format": "prettier -w '**/*.{js,jsx,ts,tsx}'",
-    "preview":"vite preview"
+    "preview": "vite preview"
   },
   "eslintConfig": {
     "extends": "@devacademy/eslint-config/react",
@@ -23,7 +23,7 @@
   "author": "Dev Academy Aotearoa",
   "license": "ISC",
   "dependencies": {
-    "@react-pdf/renderer": "^3.4.3",
+    "@react-pdf/renderer": "^3.4.4",
     "superagent": "^8.1.2"
   },
   "devDependencies": {

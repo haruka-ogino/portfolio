@@ -1,8 +1,8 @@
 import { Outlet } from 'react-router-dom'
-// import Home from './Home'
 import About from './About'
 import Projects from './Projects'
 import Nav from './Nav'
+import CV from './CV'
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Nav />
       <About />
       <Projects />
+      <CV />
     </div>
   )
 }
