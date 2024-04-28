@@ -13,7 +13,6 @@ export default function Home() {
         <p>Full-stack Developer</p>
       </div>
       <aside className="sections">
-        {/* <button onClick={() => navigate('about')}>About Me</button> */}
         <button onClick={() => handleClick('about')}>About Me</button>
         <button onClick={() => handleClick('projects')}>Projects</button>
         <button
@@ -21,7 +20,6 @@ export default function Home() {
             window.open('/Haruka-Ogino-CV.pdf', '_blank')
           }}
         >
-          {/* <button onClick={this.handleClick}>Go to Haruka's Blog</button> */}
           My CV
         </button>
       </aside>

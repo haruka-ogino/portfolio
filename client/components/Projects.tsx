@@ -28,7 +28,7 @@ export default function Projects() {
     },
   ]
   return (
-    <section className="text">
+    <section className="text" id="projects">
       <h2>Projects</h2>
       <div className="projects-container">
         {projects.map((project, i) => (
