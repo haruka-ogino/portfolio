@@ -3,6 +3,7 @@ import About from './About'
 import Projects from './Projects'
 import Nav from './Nav'
 import CV from './CV'
+import { PDFDownloadLink } from '@react-pdf/renderer'
 
 function App() {
   return (
@@ -11,7 +12,11 @@ function App() {
       <Nav />
       <About />
       <Projects />
-      <CV />
+      {/* <PDFDownloadLink document={<CV />} fileName="CV">
+        {({ loading }) =>
+          loading ? <button>Loading CV...</button> : <button>Download</button>
+        }
+      </PDFDownloadLink> */}
     </div>
   )
 }
