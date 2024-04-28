@@ -12,10 +12,8 @@ export default function Nav() {
 
   return (
     <nav id="nav">
-      <button onClick={() => handleClick('about')}>About Me</button>
-      <button onClick={() => handleClick('projects')}>Projects</button>
-      <button onClick={() => handleLink('/Haruka-Ogino-CV.pdf')}>My CV</button>
-      <button onClick={() => handleLink('/https://github.com/haruka-ogino')}>
+      <button onClick={() => handleClick('intro')}>Back to the top</button>
+      <button onClick={() => handleLink('https://github.com/haruka-ogino')}>
         My GitHub
       </button>
       <button

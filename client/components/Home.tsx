@@ -6,7 +6,7 @@ export default function Home() {
     }
   }
   return (
-    <section className="main">
+    <section className="main" id="intro">
       <div className="intro">
         <p>Hi there, I&apos;m</p>
         <h1>Haruka Ogino</h1>
