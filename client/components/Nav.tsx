@@ -5,5 +5,9 @@ export default function Nav() {
       heading.scrollIntoView({ behavior: 'smooth' })
     }
   }
-  return <button onClick={() => handleClick('projects')}>About Me</button>
+  return (
+    <nav id="nav">
+      <button onClick={() => handleClick('projects')}>Projects</button>
+    </nav>
+  )
 }
