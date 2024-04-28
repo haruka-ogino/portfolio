@@ -144,7 +144,7 @@ a {
 #nav button {
   margin: 0.5em;
   border: 1px solid #266db6;
-  font-weight: 100;
+  font-weight: 500;
   padding: 0.2em 0.5em;
 }
 
@@ -164,6 +164,7 @@ a {
 @media (max-width: 750px) {
   h1 {
     font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   .main p {
@@ -209,7 +210,7 @@ a {
   }
 
   #nav {
-    top: 0%;
+    top: 2%;
     margin-top: 0%;
   }
 }
