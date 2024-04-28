@@ -1,11 +1,4 @@
 export default function Nav() {
-  const handleClick = (id: string) => {
-    const heading = document.getElementById(id)
-    if (heading) {
-      heading.scrollIntoView({ behavior: 'smooth' })
-    }
-  }
-
   const handleLink = (link: string) => {
     window.open(link, '_blank')
   }
@@ -22,7 +15,9 @@ export default function Nav() {
       >
         My LinkedIn
       </button>
-      <button onClick={() => handleClick('intro')}>Back to the top</button>
+      <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+        Back to the top
+      </button>
     </nav>
   )
 }
