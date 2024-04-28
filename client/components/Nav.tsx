@@ -11,8 +11,7 @@ export default function Nav() {
   }
 
   return (
-    <nav id="nav">
-      <button onClick={() => handleClick('intro')}>Back to the top</button>
+    <nav id="nav" className="sections">
       <button onClick={() => handleLink('https://github.com/haruka-ogino')}>
         My GitHub
       </button>
@@ -23,6 +22,7 @@ export default function Nav() {
       >
         My LinkedIn
       </button>
+      <button onClick={() => handleClick('intro')}>Back to the top</button>
     </nav>
   )
 }
