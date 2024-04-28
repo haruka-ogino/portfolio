@@ -23,7 +23,7 @@ export default function Projects() {
       img: '/pet.png',
       alt: 'dog clipart',
       description:
-        "This web application is under construction./n/nIt is a web application designed to record your pets' milestones. \n\n I have yet to deploy this project.",
+        "This web application is under construction.\n\nIt is a web application designed to record your pets' milestones. \n\n I have yet to deploy this project.",
       githubRepo: 'https://github.com/haruka-ogino/pet-blog',
     },
   ]
