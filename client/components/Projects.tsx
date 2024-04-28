@@ -28,7 +28,7 @@ export default function Projects() {
     },
   ]
   return (
-    <div id="projects" className="text">
+    <section className="text">
       <h2>Projects</h2>
       <div className="projects-container">
         {projects.map((project, i) => (
@@ -53,6 +53,6 @@ export default function Projects() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   )
 }
