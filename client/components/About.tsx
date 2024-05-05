@@ -4,11 +4,12 @@ export default function About() {
       <h2>About Me</h2>
       <div className="about-text">
         <p>
-          I am a former civil engineer who has found a new passion for software
-          development. My time as a civil engineer has allowed me to develop
-          excellent communication, problem-solving, and time-management skills.
-          I worked on major infrastructure construction projects, being fully
-          responsible for multiple sites simultaneously.
+          Having transitioned from civil engineering to software development, I
+          have discovered a newfound passion for coding. My time as a civil
+          engineer has allowed me to develop excellent communication,
+          problem-solving, and time-management skills. I worked on major
+          infrastructure construction projects, being fully responsible for
+          multiple sites simultaneously.
           <br /> <br />
           Most recently, I have been undergoing a full stack web development
           course at the Dev Academy. I have made projects using JavaScript and
