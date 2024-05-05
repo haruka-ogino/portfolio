@@ -5,7 +5,7 @@ export default function Projects() {
       img: 'https://www.ghibli-museum.jp/en/img/mainimg.png',
       alt: 'ghibli character',
       description:
-        'A fun full-stack web application I worked on using React and SQLite alongside Knex. \n\n While I have accomplished a lot of my goals for this app, I am still constantly working on it.\n\n Learn more about my goals on the GitHub repo.',
+        'A fun full-stack web application I worked on using React and SQLite alongside Knex. \n\n While I have accomplished a lot of my goals for this app, I am still constantly working on it.\n\nLearn more about my goals on the GitHub repo.',
       githubRepo: 'https://github.com/haruka-ogino/Ghibli-Things',
       deployedLink: 'https://ghibli-things.devacademy.nz/',
     },
@@ -19,11 +19,19 @@ export default function Projects() {
       deployedLink: 'https://lucas-mansion.pushed.nz/',
     },
     {
+      title: 'LyricSync',
+      img: '/lyricsync.png',
+      alt: 'lyricsync logo',
+      description:
+        'This web application is under construction. It is a full-stack application which allows its user to save the lyrics to their favourite songs.\n\n It was created in conjuction with a classmate from the Dev Academy Bootcamp.\n\nLearn more about my goals on the GitHub repo.',
+      githubRepo: 'https://github.com/haruka-ogino/LyricSync',
+    },
+    {
       title: 'Pet Blog',
       img: '/pet.png',
       alt: 'dog clipart',
       description:
-        "This web application is under construction.\n\nIt is a web application designed to record your pets' milestones. \n\n I have yet to deploy this project.",
+        "This web application is under construction. It is a web application designed to record your pets' milestones. \n\n I have yet to deploy this project.",
       githubRepo: 'https://github.com/haruka-ogino/pet-blog',
     },
   ]
