@@ -7,7 +7,7 @@ export default function Projects() {
       description:
         'A fun full-stack web application I worked on using React and SQLite alongside Knex. \n\n While I have accomplished a lot of my goals for this app, I am still constantly working on it.\n\nLearn more about my goals on the GitHub repo.',
       githubRepo: 'https://github.com/haruka-ogino/Ghibli-Things',
-      deployedLink: 'https://ghibli-things.devacademy.nz/',
+      deployedLink: 'https://ghibli-things.pushed.nz/',
     },
     {
       title: "Lucas' Mansion",
