@@ -12,7 +12,11 @@ export default function Blog() {
       <div className="projects-container">
         {projects.map((project, i) => (
           <div className="project" key={i}>
-            <p>{project.text}</p>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: project.text.replace(/\n/g, '<br>'),
+              }}
+            />
           </div>
         ))}
       </div>
