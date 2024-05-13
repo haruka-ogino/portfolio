@@ -10,8 +10,7 @@ function App() {
     <div className="container">
       <Outlet />
       <Nav />
-      <About />
-      <Projects />
+
       {/* <PDFDownloadLink document={<CV />} fileName="CV">
         {({ loading }) =>
           loading ? <button>Loading CV...</button> : <button>Download</button>
