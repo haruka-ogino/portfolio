@@ -10,6 +10,6 @@ export default createRoutesFromElements(
     <Route index element={<Home />} />
     {/* <Route path="about" element={<About />} /> */}
     {/* <Route path="projects" element={<Projects />} /> */}
-    <Route path="blog" element={<Blog />} />
+    {/* <Route path="blog" element={<Blog />} /> */}
   </Route>
 )
