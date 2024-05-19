@@ -185,6 +185,9 @@ a {
   font-size: 1.2em; /* Font size */
   line-height: 1.5em; /* Line height */
   margin: 20px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
 }
 
 .blog:before {
@@ -197,14 +200,6 @@ a {
   width: 100%;
   z-index: -1;
   transition: 350ms ease-in;
-}
-
-.blog-inside {
-  /* padding: 1em;
-  right: -7px;
-  top: -9px;
-  width: 50em;
-  background-color: #d5edf6; */
 }
 
 @media (max-width: 750px) {

@@ -4,7 +4,7 @@ export default function BlogEntry() {
   const { entry } = useParams()
 
   if (entry) {
-    const id = parseInt(entry)
+    const id = parseInt(entry) - 1
     return (
       <>
         <section>
