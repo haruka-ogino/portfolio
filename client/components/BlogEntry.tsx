@@ -1,13 +1,26 @@
 import { useParams } from 'react-router-dom'
-
+import { blogEntries } from './Blog'
 export default function BlogEntry() {
   const { entry } = useParams()
-  // const entryStr = entry.toString()
-  return (
-    <>
-      <section>
-        <h1>Blog Entry {entry}</h1>
-      </section>
-    </>
-  )
+
+  if (entry) {
+    const id = parseInt(entry)
+    return (
+      <>
+        <section>
+          <div className="blog">
+            <div className="blog-inside">
+              <h3>{blogEntries[id].title}</h3>
+              <em>posted on {blogEntries[id].date}</em>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: blogEntries[id].text.replace(/\n/g, '<br>'),
+                }}
+              />
+            </div>
+          </div>
+        </section>
+      </>
+    )
+  }
 }
