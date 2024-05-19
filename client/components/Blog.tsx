@@ -7,18 +7,20 @@ export default function Blog() {
     },
   ]
   return (
-    <section className="text" id="projects">
+    <section className="text" id="blog-entries">
       <h2>Blog Entries</h2>
-      <div className="projects-container">
+      <div className="blog-container">
         {blogEntries.map((blog, i) => (
           <div className="blog" key={i}>
-            <h3>{blog.title}</h3>
-            <em>posted on {blog.date}</em>
-            <p
-              dangerouslySetInnerHTML={{
-                __html: blog.text.replace(/\n/g, '<br>'),
-              }}
-            />
+            <div className="blog-inside">
+              <h3>{blog.title}</h3>
+              <em>posted on {blog.date}</em>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: blog.text.replace(/\n/g, '<br>'),
+                }}
+              />
+            </div>
           </div>
         ))}
       </div>

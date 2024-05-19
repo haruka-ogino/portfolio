@@ -165,6 +165,50 @@ a {
   display: flex;
 }
 
+.blog h3 {
+  margin: 0.3em 0em;
+  /* right: 0px;
+  top: 0px; */
+}
+
+.blog p {
+  margin: 1em 0em;
+  /* right: 0px;
+  top: 0px; */
+}
+
+.blog {
+  /* position: relative;
+  margin: 1em 0;
+  border: 2px solid blue;
+  background-color: #d5edf6;
+  position: absolute;
+  width: 50em; */
+  position: relative;
+  padding: 20px;
+  background-color: #fff; /* Main content background color */
+  z-index: 1; /* Ensure the content stays above the pseudo-element */
+}
+
+.blog::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -20px; /* Offset the background by 20px to the right */
+  bottom: 0;
+  left: 0;
+  background-color: #bebcb5; /* Offset background color */
+  z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
+
+.blog-inside {
+  /* padding: 1em;
+  right: -7px;
+  top: -9px;
+  width: 50em;
+  background-color: #d5edf6; */
+}
+
 @media (max-width: 750px) {
   h1 {
     font-size: 4em;
