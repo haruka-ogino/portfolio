@@ -166,11 +166,13 @@ a {
 }
 
 .blog h3 {
-  margin: 0.2em 0em;
+  margin: 0.2em 0em 0em 0em;
 }
 
 .blog p {
-  margin: 0.5em 0em;
+  margin: 0.7em 0em 0.2em 0em;
+  font-size: 1em;
+  line-height: 1.1em;
 }
 
 .blog {
