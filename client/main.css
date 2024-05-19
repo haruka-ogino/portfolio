@@ -1,5 +1,6 @@
 html {
   background-color: #f4fbfe;
+  margin-top: 3em;
 }
 
 .container {
@@ -73,7 +74,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: 7em;
+  margin: 4em;
   margin-bottom: 3em;
 }
 
