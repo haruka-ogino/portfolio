@@ -166,39 +166,34 @@ a {
 }
 
 .blog h3 {
-  margin: 0.3em 0em;
-  /* right: 0px;
-  top: 0px; */
+  margin: 0.2em 0em;
 }
 
 .blog p {
-  margin: 1em 0em;
-  /* right: 0px;
-  top: 0px; */
+  margin: 0.5em 0em;
 }
 
 .blog {
-  /* position: relative;
-  margin: 1em 0;
-  border: 2px solid blue;
-  background-color: #d5edf6;
-  position: absolute;
-  width: 50em; */
   position: relative;
   padding: 20px;
-  background-color: #fff; /* Main content background color */
-  z-index: 1; /* Ensure the content stays above the pseudo-element */
+  background-color: transparent; /* Main content background color */
+  border: 1px solid #266db6; /* Optional border for visibility */
+  color: #00132c; /* Text color */
+  font-size: 1.2em; /* Font size */
+  line-height: 1.5em; /* Line height */
+  margin: 20px;
 }
 
-.blog::before {
+.blog:before {
+  background-color: #d5edf6;
   content: '';
+  height: 100%;
   position: absolute;
-  top: 0;
-  right: -20px; /* Offset the background by 20px to the right */
-  bottom: 0;
-  left: 0;
-  background-color: #bebcb5; /* Offset background color */
-  z-index: -1; /* Ensure the pseudo-element is behind the content */
+  right: -7px;
+  top: -9px;
+  width: 100%;
+  z-index: -1;
+  transition: 350ms ease-in;
 }
 
 .blog-inside {
