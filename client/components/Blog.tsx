@@ -15,14 +15,12 @@ export const blogEntries = [
 export default function Blog() {
   const array = blogEntries.reverse()
   return (
-    <section className="text" id="blog-entries">
+    <section className="blog-container">
       <h2>Blog Entries</h2>
-      <div className="blog-container">
+      <div className="blog-entries">
         {array.map((blog, i) => (
           <div className="blog" key={i}>
-            <div className="blog-inside">
-              <h3>{blog.title}</h3>
-            </div>
+            <h3>{blog.title}</h3>
           </div>
         ))}
       </div>

@@ -185,9 +185,7 @@ a {
   font-size: 1.2em; /* Font size */
   line-height: 1.5em; /* Line height */
   margin: 20px;
-  width: 70%;
-  display: flex;
-  justify-content: center;
+  width: 100%;
 }
 
 .blog:before {
@@ -200,6 +198,14 @@ a {
   width: 100%;
   z-index: -1;
   transition: 350ms ease-in;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 80%;
 }
 
 @media (max-width: 750px) {
