@@ -15,6 +15,13 @@ export default function Nav() {
       >
         My LinkedIn
       </button>
+      <button
+        onClick={() => {
+          window.open('/Haruka-Ogino-CV.pdf', '_blank')
+        }}
+      >
+        My CV
+      </button>
       <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
         Back to the top
       </button>

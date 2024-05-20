@@ -1,3 +1,4 @@
+import { Link, useNavigate } from 'react-router-dom'
 import About from './About'
 import Projects from './Projects'
 
@@ -7,6 +8,10 @@ export default function Home() {
     if (heading) {
       heading.scrollIntoView({ behavior: 'smooth' })
     }
+  }
+  const navigate = useNavigate()
+  function handleNavigate(link: string) {
+    navigate(`/${link}`)
   }
   return (
     <>
@@ -19,13 +24,7 @@ export default function Home() {
         <aside className="sections">
           <button onClick={() => handleClick('about')}>About Me</button>
           <button onClick={() => handleClick('projects')}>Projects</button>
-          <button
-            onClick={() => {
-              window.open('/Haruka-Ogino-CV.pdf', '_blank')
-            }}
-          >
-            My CV
-          </button>
+          <button onClick={() => handleNavigate('blog')}>Blog Entries</button>
         </aside>
       </section>
       <About />
