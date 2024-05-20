@@ -2,7 +2,7 @@ export interface BlogEntry {
   title: string
   date: string
   text: string
-  images: BlogImage[]
+  images?: BlogImage[]
 }
 
 interface BlogImage {

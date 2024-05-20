@@ -243,6 +243,16 @@ a {
   background-color: #6dcff6;
 }
 
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog img {
+  width: 25em;
+}
+
 @media (max-width: 750px) {
   h1 {
     font-size: 4em;

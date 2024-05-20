@@ -17,6 +17,17 @@ export default function BlogEntry() {
                   __html: blogEntries[id].text.replace(/\n/g, '<br>'),
                 }}
               />
+              {blogEntries[id].images && (
+                <figure>
+                  <img
+                    src={blogEntries[id].images[0].link}
+                    alt={blogEntries[id].images[0].description}
+                  />
+                  <figcaption>
+                    {blogEntries[id].images[0].description}
+                  </figcaption>
+                </figure>
+              )}
             </div>
           </div>
         </section>
