@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export const blogEntries = [
   {
     title: 'The Growth Mindset',
@@ -13,17 +15,22 @@ export const blogEntries = [
 ]
 
 export default function Blog() {
-  const array = blogEntries.reverse()
   return (
     <section className="blog-container">
       <h2>Blog Entries</h2>
       <div className="blog-entries">
-        {array.map((blog, i) => (
-          <div className="blog blog-item" key={i}>
-            <h3>{blog.title}</h3>
-            <em>posted on {blog.date}</em>
+        <Link to={`/blog/2`}>
+          <div className="blog blog-item">
+            <h3>{blogEntries[1].title}</h3>
+            <em>posted on {blogEntries[1].date}</em>
           </div>
-        ))}
+        </Link>
+        <Link to={`/blog/1`}>
+          <div className="blog blog-item">
+            <h3>{blogEntries[0].title}</h3>
+            <em>posted on {blogEntries[0].date}</em>
+          </div>
+        </Link>
       </div>
     </section>
   )
