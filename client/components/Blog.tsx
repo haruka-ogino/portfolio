@@ -21,6 +21,7 @@ export default function Blog() {
         {array.map((blog, i) => (
           <div className="blog" key={i}>
             <h3>{blog.title}</h3>
+            <em>posted on {blog.date}</em>
           </div>
         ))}
       </div>

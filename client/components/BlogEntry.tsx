@@ -8,7 +8,7 @@ export default function BlogEntry() {
     return (
       <>
         <section>
-          <div className="blog">
+          <div className="blog" id="blog-list">
             <div className="blog-inside">
               <h3>{blogEntries[id].title}</h3>
               <em>posted on {blogEntries[id].date}</em>

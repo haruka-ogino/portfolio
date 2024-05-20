@@ -28,6 +28,10 @@ p {
   font-size: 1.2em;
 }
 
+em {
+  margin-left: 15px;
+}
+
 .text h3 {
   font-size: 1.5em;
 }
@@ -185,7 +189,7 @@ a {
   font-size: 1.2em; /* Font size */
   line-height: 1.5em; /* Line height */
   margin: 20px;
-  width: 100%;
+  width: 90%;
 }
 
 .blog:before {
