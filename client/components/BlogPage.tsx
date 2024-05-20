@@ -20,13 +20,22 @@ export default function BlogPage() {
                 }}
               />
               {blog.images && blog.images.length > 0 && (
-                <figure>
-                  <img
-                    src={blog.images[0].link}
-                    alt={blog.images[0].description}
-                  />
-                  <figcaption>{blog.images[0].description}</figcaption>
-                </figure>
+                <>
+                  <figure>
+                    <img
+                      src={blog.images[0].link}
+                      alt={blog.images[0].description}
+                    />
+                    <figcaption>{blog.images[0].description}</figcaption>
+                  </figure>
+                  <figure>
+                    <img
+                      src={blog.images[1].link}
+                      alt={blog.images[1].description}
+                    />
+                    <figcaption>{blog.images[1].description}</figcaption>
+                  </figure>
+                </>
               )}
             </div>
           </div>
