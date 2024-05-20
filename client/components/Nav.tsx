@@ -1,10 +1,20 @@
+import { useNavigate } from 'react-router-dom'
+
 export default function Nav() {
   const handleLink = (link: string) => {
     window.open(link, '_blank')
   }
+  const navigate = useNavigate()
+  function handleNavigate(link: string) {
+    navigate(`/${link}`)
+  }
 
   return (
     <nav id="nav" className="sections">
+      <button onClick={() => handleNavigate('')}>Home</button>
+      <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+        Back to the top
+      </button>
       <button onClick={() => handleLink('https://github.com/haruka-ogino')}>
         My GitHub
       </button>
@@ -21,9 +31,6 @@ export default function Nav() {
         }}
       >
         My CV
-      </button>
-      <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-        Back to the top
       </button>
     </nav>
   )
