@@ -1,10 +1,12 @@
 import { useParams } from 'react-router-dom'
 import { blogEntries } from './Blog'
-export default function BlogEntry() {
+import { BlogEntry } from '../../models/blog'
+export default function BlogPage() {
   const { entry } = useParams()
 
   if (entry) {
     const id = parseInt(entry) - 1
+    const blog: BlogEntry = blogEntries[id]
     return (
       <>
         <section>
@@ -17,15 +19,13 @@ export default function BlogEntry() {
                   __html: blogEntries[id].text.replace(/\n/g, '<br>'),
                 }}
               />
-              {blogEntries[id].images && (
+              {blog.images && blog.images.length > 0 && (
                 <figure>
                   <img
-                    src={blogEntries[id].images[0].link}
-                    alt={blogEntries[id].images[0].description}
+                    src={blog.images[0].link}
+                    alt={blog.images[0].description}
                   />
-                  <figcaption>
-                    {blogEntries[id].images[0].description}
-                  </figcaption>
+                  <figcaption>{blog.images[0].description}</figcaption>
                 </figure>
               )}
             </div>
