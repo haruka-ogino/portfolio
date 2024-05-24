@@ -1,5 +1,7 @@
 {
-  "rewrites":  [
-    {"source": "/(.*)", "destination": "/"}
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/blog", "dest": "/index.html" },
+    { "src": "/blog/:entry", "dest": "/index.html" }
   ]
 }

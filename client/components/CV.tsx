@@ -26,20 +26,20 @@ export default function CV() {
       'I am a former civil engineer who has found a new passion for software engineering. My time as a civil engineer has allowed me to develop excellent communication, problem-solving, and time-management skills. I worked on major infrastructure construction projects, being fully responsible for multiple sites simultaneously. Most recently, I have been undergoing a full-stack web development course at the Dev Academy. I have made projects using JavaScript and TypeScript alongside React, Express.js, and Knex SQLite3.',
   }
 
-  const education = [
-    {
-      school: 'Dev Academy Aotearoa',
-      certification:
-        'NZQA Level 6 Certificate in Applied Software Development, Jan - May 2024',
-      bulletPoints: [
-        'Intensive 17-week long course focused on full stack web development.',
-        'Developed proficiency in JavaScript and TypeScript for front-end development, using the React framework.',
-        'Gained experience in server-side programming with Express.js, and database management using Knex.js with SQLite.',
-        'Implemented authentication and authorisation features using Auth0 and JSON Web Tokens.',
-        'Completed multiple projects in-class as well as personal ones, using frameworks outlined above, both collaboratively and independently.',
-      ],
-    },
-  ]
+  // const education = [
+  //   {
+  //     school: 'Dev Academy Aotearoa',
+  //     certification:
+  //       'NZQA Level 6 Certificate in Applied Software Development, Jan - May 2024',
+  //     bulletPoints: [
+  //       'Intensive 17-week long course focused on full stack web development.',
+  //       'Developed proficiency in JavaScript and TypeScript for front-end development, using the React framework.',
+  //       'Gained experience in server-side programming with Express.js, and database management using Knex.js with SQLite.',
+  //       'Implemented authentication and authorisation features using Auth0 and JSON Web Tokens.',
+  //       'Completed multiple projects in-class as well as personal ones, using frameworks outlined above, both collaboratively and independently.',
+  //     ],
+  //   },
+  // ]
 
   const work = [
     {
