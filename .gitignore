@@ -40,3 +40,4 @@ dev.sqlite3
 
 /dist
 dist
+.vercel
